@@ -75,10 +75,19 @@
 }
 
 #particles-js {
+	height: 100vh;
+	min-height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
 
-  z-index: -1;
+
+
   
 }
 
-
+.hero-text-container {
+    z-index: 9998;
+}
 

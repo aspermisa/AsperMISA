@@ -2,6 +2,7 @@
  */
  
 .nav-open nav {
+	z-index: 9999;
 	border-bottom: 1px dotted rgba(255, 255, 255, .2);
 	padding: 10px 0;
 	a {
