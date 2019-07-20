@@ -1,4 +1,4 @@
-//Style sheet for the homepage
+/* Style sheet for the homepage and some parts of the header (see index.html and default.html in _layouts folder) */
 
 .container, .text-container {
 	margin: 0 auto;
@@ -99,10 +99,6 @@ header {
 	background: #fff;
 }
 
-.info-1 img {
-		max-height: 650px;
-}
-
 .info-1 {
 	padding: 100px 0 100px 0;
 
@@ -111,9 +107,10 @@ header {
 	}
 }
 
-.info-2 img {
+.info-1 img {
 		max-height: 650px;
 }
+
 
 .info-2 {
 	padding: 100px 0 100px 0;
@@ -124,7 +121,7 @@ header {
 	}
 }
 
-.info-3 img {
+.info-2 img {
 		max-height: 650px;
 }
 
@@ -136,6 +133,10 @@ header {
 	}
 }
 
+.info-3 img {
+		max-height: 650px;
+}
+
 .subtext {
 	margin-top: 10px;
 }
@@ -143,6 +144,8 @@ header {
 
 .cta {
 	margin: 25px 0 0 0;
+	   
+
 }
 
 .page h2 {

@@ -1,0 +1,56 @@
+/* Style sheet for upcoming events on the home page (see index.html) */
+
+.container-event{
+    border-collapse: separate;
+    border-spacing: 30px; /* Looks okay on desktop but a little weird on mobile */
+    width: 100%;
+    display:table;
+    padding: 100px 0 100px 0;
+
+}
+
+.event-image img {
+    width: 100%;
+    height: auto;
+}
+
+.container-row{
+	display:table-row;
+}
+
+.event-column{
+	background: #f5f5f5;
+	border-bottom: 1px solid #e9e9e9;
+	position: relative;
+	display:table-cell;
+	width: 33%;
+
+}
+
+.event-column:hover {
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.34);
+    border: 0!important;
+    background: #f5f5f5!important;
+}
+
+.event-info{
+	padding: 1em 1em 1em;
+}
+
+.event-info h2{
+    margin-bottom:0px;
+    padding-right:15px;
+
+}
+
+/* Resposive verticle stacking of .event-column */
+@media (max-width: 767px) {
+  .event-column {
+    display: table-footer-group;
+    width: 100%;
+  }
+  .event-column {
+    display: table-header-group;
+    width: 100%;
+  }
+}

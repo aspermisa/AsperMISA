@@ -3,27 +3,44 @@ title: About
 description: We've built an amazing team of developers, marketers, designers and sales people.
 image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 ---
-
+<!-- This file allows us to customize the layout of the contact page -->
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
-	<div class="inner-hero text-container">
-		<div class="hero-text-container">
-			<h1 class="editable">Team</h1>
-			<p class="subtext editable"> Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
-		</div>
-	</div>
+    <div class="inner-hero text-container">
+        <div class="hero-text-container">
+            <h1 class="editable">
+                Team
+            </h1>
+            <p class="subtext editable">
+                Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
+            </p>
+        </div>
+    </div>
 </section>
-
 <section class="pad">
-	<div class="container">
-		<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
-		<ul class="staff">
-			{% for person in site.staff_members %}
-				<li>
-					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
-					<div class="position">{{ person.position }}</div>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
+    <div class="container">
+        <p class="editor-link">
+            <a class="btn" href="cloudcannon:collections/_staff_members">
+                <strong>
+                    ✎
+                </strong>
+                Manage Staff Members
+            </a>
+        </p>
+        <ul class="staff">
+            {% for person in site.staff_members %}
+            <li>
+                <div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})">
+                </div>
+                <div class="name">
+                    <a href="https://twitter.com/{{ person.twitter_username }}" target="_blank">
+                        {{ person.name }}
+                    </a>
+                </div>
+                <div class="position">
+                    {{ person.position }}
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </section>
