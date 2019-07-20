@@ -1,12 +1,13 @@
 # This file allows us to add or delete navigation links in the header bar
-
 - name: About
   link: /index/
-- name: Team
-  link: /team/
 - name: Events
   link: /events/
 - name: MIS
   link: /mis/
+- name: Team
+  link: /team/
 - name: Contact
   link: /contact/
+- name: Join MISA
+  link: /index/  #fix later
