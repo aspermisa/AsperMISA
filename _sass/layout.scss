@@ -4,6 +4,14 @@
 	margin: 0 auto;
 	position: relative;
 	padding: 0 20px;
+	/* flex-direction: row-reverse */
+}
+
+.container-2, .text-container {
+	margin: 0 auto;
+	position: relative;
+	padding: 0 20px;
+	flex-direction: row;
 }
 
 .text-container {
@@ -113,14 +121,26 @@ header {
 
 
 .info-2 {
+
 	padding: 100px 0 100px 0;
-	background:gray;
+	background:#fff;
 
 	&:first-child {
 		padding-top: 100px;
 	}
+/* Places image on left and text on right */
+	.flex{
+		flex-direction: row-reverse;
+	}
 }
 
+/* .info-2 h2{
+	text-align:right;
+}
+.info-2 p{
+	text-align:right;
+}
+ */
 .info-2 img {
 		max-height: 650px;
 }
@@ -146,6 +166,32 @@ header {
 	margin: 25px 0 0 0;
 	   
 
+}
+
+.upcoming-events-text h2{
+	text-align:center;
+
+}
+
+.about-join-button a{
+background: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    color: #fff;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    transition: .2s ease-in-out;
+    display: inline-block;
+    padding: 16px 50px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+
+.about-join-button a:hover {
+    background: black;
+    color: white;
+    text-shadow: none;
 }
 
 .page h2 {
