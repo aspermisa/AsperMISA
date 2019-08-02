@@ -4,6 +4,7 @@ description: We've built an amazing team of developers, marketers, designers and
 image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 ---
 <!-- This file allows us to customize the layout of the contact page -->
+<!-- hero image section -->
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
     <div class="inner-hero text-container">
         <div class="hero-text-container">
@@ -16,31 +17,265 @@ image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
         </div>
     </div>
 </section>
-<section class="pad">
-    <div class="container">
-        <p class="editor-link">
-            <a class="btn" href="cloudcannon:collections/_staff_members">
-                <strong>
-                    ✎
-                </strong>
-                Manage Staff Members
-            </a>
+<!-- these are the lightboxes that only show up when clicking on a profile image in the team section -->
+<div class="lightbox" id="thomas-lightbox">
+    <img class="lightbox-image" src="https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png">
+        <h2>
+            Thomas Tran
+        </h2>
+        <h3>
+            Co-President
+        </h3>
+        <p>
+            Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat reiciendis ut
         </p>
-        <ul class="staff">
-            {% for person in site.staff_members %}
+        <div class="rounded-social-buttons">
+            <a class="social-button linkedin" href="#">
+            </a>
+        </div>
+    </img>
+</div>
+<div class="lightbox" id="soham-lightbox">
+    <img class="lightbox-image" src="https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png">
+        <h2>
+            Soham Upadhyay
+        </h2>
+        <h3>
+            Co-President
+        </h3>
+        <p>
+            Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat reiciendis ut
+        </p>
+        <div class="rounded-social-buttons">
+            <a class="social-button linkedin" href="#">
+            </a>
+        </div>
+    </img>
+</div>
+<div class="lightbox" id="cassandra-lightbox">
+    <img class="lightbox-image" src="https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png">
+        <h2>
+            Cassandra Lup
+        </h2>
+        <h3>
+            VP Marketing
+        </h3>
+        <p>
+            Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat reiciendis ut
+        </p>
+        <div class="rounded-social-buttons">
+            <a class="social-button linkedin" href="#">
+            </a>
+        </div>
+    </img>
+</div>
+<div class="lightbox" id="zhixin-lightbox">
+    <img class="lightbox-image" src="https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png">
+        <h2>
+            Zhixin Zhao
+        </h2>
+        <h3>
+            VP IT
+        </h3>
+        <p>
+            Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat reiciendis ut
+        </p>
+        <div class="rounded-social-buttons">
+            <a class="social-button linkedin" href="#">
+            </a>
+        </div>
+    </img>
+</div>
+<div class="lightbox" id="grace-lightbox">
+    <img class="lightbox-image" src="https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png">
+        <h2>
+            Grace Lin
+        </h2>
+        <h3>
+            VP Finance
+        </h3>
+        <p>
+            Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat reiciendis ut
+        </p>
+        <div class="rounded-social-buttons">
+            <a class="social-button linkedin" href="#">
+            </a>
+        </div>
+    </img>
+</div>
+<div class="lightbox" id="skyler-lightbox">
+    <img class="lightbox-image" src="https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png">
+        <h2>
+            Skyler Sun
+        </h2>
+        <h3>
+            VP Events
+        </h3>
+        <p>
+            Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat reiciendis ut
+        </p>
+        <div class="rounded-social-buttons">
+            <a class="social-button linkedin" href="#">
+            </a>
+        </div>
+    </img>
+</div>
+<div class="lightbox" id="celia-lightbox">
+    <img class="lightbox-image" src="https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png">
+        <h2>
+            Celia Dang
+        </h2>
+        <h3>
+            Executive Assistant
+        </h3>
+        <p>
+            Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat reiciendis ut
+        </p>
+        <div class="rounded-social-buttons">
+            <a class="social-button linkedin" href="#">
+            </a>
+        </div>
+    </img>
+</div>
+<!-- team section -->
+<section class="pad" id="see-team">
+    <div class="container">
+        <ul class="staff2">
             <li>
-                <div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})">
-                </div>
+                <a data-featherlight="#thomas-lightbox" href="">
+                    <div class="square-image button hvr-float" style="background-image: url(https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png)">
+                    </div>
+                </a>
                 <div class="name">
-                    <a href="https://twitter.com/{{ person.twitter_username }}" target="_blank">
-                        {{ person.name }}
+                    <a data-featherlight="#thomas-lightbox" href="">
+                        Thomas Tran
                     </a>
                 </div>
                 <div class="position">
-                    {{ person.position }}
+                    Co-President
+                </div>
+                <div class="rounded-social-buttons">
+                    <a class="social-button linkedin" href="#">
+                    </a>
                 </div>
             </li>
-            {% endfor %}
+            <li>
+                <a data-featherlight="#soham-lightbox" href="">
+                    <div class="square-image button hvr-float" style="background-image: url(https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png)">
+                    </div>
+                </a>
+                <div class="name">
+                    <a data-featherlight="#soham-lightbox" href="">
+                        Soham Upadhyay
+                    </a>
+                </div>
+                <div class="position">
+                    Co-President
+                </div>
+                <div class="rounded-social-buttons">
+                    <a class="social-button linkedin" href="#">
+                    </a>
+                </div>
+            </li>
         </ul>
+        <ul class="staff">
+            <li>
+                <a data-featherlight="#cassandra-lightbox" href="">
+                    <div class="square-image button hvr-float" style="background-image: url(https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png)">
+                    </div>
+                </a>
+                <div class="name">
+                    <a data-featherlight="#cassandra-lightbox" href="">
+                        Cassandra Lup
+                    </a>
+                </div>
+                <div class="position">
+                    VP Marketing
+                </div>
+                <div class="rounded-social-buttons">
+                    <a class="social-button linkedin" href="#">
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a data-featherlight="#zhixin-lightbox" href="">
+                    <div class="square-image button hvr-float" style="background-image: url(https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png)">
+                    </div>
+                </a>
+                <div class="name">
+                    <a data-featherlight="#zhixin-lightbox" href="">
+                        Zhixin Zhao
+                    </a>
+                </div>
+                <div class="position">
+                    VP IT
+                </div>
+                <div class="rounded-social-buttons">
+                    <a class="social-button linkedin" href="#">
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a data-featherlight="#grace-lightbox" href="">
+                    <div class="square-image button hvr-float" style="background-image: url(https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png)">
+                    </div>
+                </a>
+                <div class="name">
+                    <a data-featherlight="#grace-lightbox" href="">
+                        Grace Lin
+                    </a>
+                </div>
+                <div class="position">
+                    VP Finance
+                </div>
+                <div class="rounded-social-buttons">
+                    <a class="social-button linkedin" href="#">
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <ul class="staff2">
+            <li>
+                <a data-featherlight="#skyler-lightbox" href="">
+                    <div class="square-image button hvr-float" style="background-image: url(https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png)">
+                    </div>
+                </a>
+                <div class="name">
+                    <a data-featherlight="#skyler-lightbox" href="">
+                        Skyler Sun
+                    </a>
+                </div>
+                <div class="position">
+                    VP Events
+                </div>
+                <div class="rounded-social-buttons">
+                    <a class="social-button linkedin" href="#">
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a data-featherlight="#celia-lightbox" href="">
+                    <div class="square-image button hvr-float" style="background-image: url(https://www.flynz.co.nz/wp-content/uploads/profile-placeholder.png)">
+                    </div>
+                </a>
+                <div class="name">
+                    <a data-featherlight="#celia-lightbox" href="">
+                        Celia Dang
+                    </a>
+                </div>
+                <div class="position">
+                    Executive Assistant
+                </div>
+                <div class="rounded-social-buttons">
+                    <a class="social-button linkedin" href="#">
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="all-events-button">
+        <a class="button hvr-pop" href="/team_all/">
+            See All
+        </a>
     </div>
 </section>
