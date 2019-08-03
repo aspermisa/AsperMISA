@@ -4,7 +4,10 @@
 // }
 
 .contact-box {
+	border:1px solid red;
 	margin: 0 auto;
+	padding: 10%;
+
 
 	form {
 		width: 100%
@@ -19,10 +22,43 @@
 			-webkit-flex: 1;
 			flex: 1;
 		}
+
+		border:1px solid red;
+		margin-right: 5%;
+	}
+
+	.contact-form{
+		// width: 100%;
+		margin-top: 60px;
+		
 	}
 
 	.contact-details {
+
+
+		width: 100%;
+		margin: 0;
 		font-size: .9em;
-		margin-top: 60px;
+		// margin-top: 60px;
+
+		ul#icons{
+			border:1px solid red;
+			display: -webkit-flex; /* Safari */
+			-webkit-align-items: center; /* Safari 7.0+ */
+			display: flex;
+			align-items: center;
+
+			list-style-type:none;	//does NOT display bullet points
+
+			li{
+				float:left;	// places icons side by side horizontally
+				margin-right: 5%;
+			}
+
+			li:hover{
+				opacity: 0.5;
+			}
+
+		}
 	}
 }
