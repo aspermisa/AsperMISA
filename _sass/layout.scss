@@ -231,7 +231,9 @@ blockquote:before {
 	background-size:cover;
  	background-repeat:no-repeat;
 	margin: 0 auto;
+	transition: transform .5s ease;
 }
+
 
 .page {
 	margin-bottom: 0;
