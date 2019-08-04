@@ -3,11 +3,27 @@
 // 	height: 440px;
 // }
 
-.contact-box {
-	border:1px solid red;
-	margin: 0 auto;
-	padding: 10%;
+//bacground image shown very top
+//adds extra transparent black rectangle
+.hero-text-container{
+	padding: 5%;
+	background-color: black;
+	opacity: 0.5;
 
+	//We don't want to make text to be transparent,
+	//texts should have 100% opacticy (default: 1)
+	h1, p{
+		color: white;
+		opacity: 1;
+	}
+}
+
+//section shown at the bottom of the background image
+.contact-box {
+
+	border:5px solid red;
+	margin: 0 auto;
+	// padding: 10%;
 
 	form {
 		width: 100%
@@ -23,36 +39,41 @@
 			flex: 1;
 		}
 
-		border:1px solid red;
-		margin-right: 5%;
+		border:5px solid green;
 	}
 
 	.contact-form{
-		// width: 100%;
-		margin-top: 60px;
-		
+		border:5px solid blue;
 	}
 
 	.contact-details {
-
-
-		width: 100%;
-		margin: 0;
+		border:5px solid black;
+		width: 50%;
+		// margin: 0 auto;
 		font-size: .9em;
-		// margin-top: 60px;
+		text-align: center;
+	}
 
+	.contact-icons{
+		// float: right;
+		margin: 0;
+		width: 50%;
+		border:5px solid purple;
+		
 		ul#icons{
-			border:1px solid red;
-			display: -webkit-flex; /* Safari */
-			-webkit-align-items: center; /* Safari 7.0+ */
-			display: flex;
-			align-items: center;
+			// text-align: center;
 
 			list-style-type:none;	//does NOT display bullet points
-
 			li{
 				float:left;	// places icons side by side horizontally
+				// text-align: center;
 				margin-right: 5%;
+
+				i{
+					display: block;
+					text-align: center;
+					padding: 8px;
+				}
 			}
 
 			li:hover{
@@ -61,4 +82,14 @@
 
 		}
 	}
+}
+
+#box2{
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+	// padding-top: 5%;
+	// padding-bottom: 5%;
+
+	border:5px solid blue;
 }
