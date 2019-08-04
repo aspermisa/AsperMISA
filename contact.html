@@ -17,9 +17,12 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Get in touch today</h1>
-			<p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you
-				as soon as we can.</p>
+			<!-- Extra div block added to add a transparent black rectangle behind the text -->
+			<div id="transparent-background">
+				<h1 class="editable">Get in touch today</h1>
+				<p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you
+					as soon as we can.</p>
+			</div>
 		</div>
 	</div>
 </section>
@@ -27,6 +30,7 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 <!-- Section for Contact Form / Location / Social Media Icons -->
 <section class="pad">
 	<!-- Container -->
+	<!-- Class: text-container || contact-box -->
 	<div class="text-container contact-box">
 
 		<!-- Contact form -->
@@ -102,19 +106,35 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			</div>
 		</div>
 
-		<!-- Social media icons -->
-		<!-- Class: contact-social-media -->
-		<!-- <div class = contact-social-media>
-			<h3><a><i class="fab fa-facebook fa-3x" aria-hidden="true"></i>		Facebook</a></h3>
-			<h3><a><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>		LinkedIn</a></h3>
-			<h3><a><i class="fab fa-twitter fa-3x" aria-hidden="true"></i>		Twitter</a></h3>
-			<h3><a><i class="fab fa-instagram fa-3x" aria-hidden="true"></i>	Instagram</a></h3>
-
-			<input type="submit" value="Contact on Executive">
-		</div> -->
-
 	</div>
 </section>
+
+<section class="pad2">
+	<div class="test1">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+			<li>Item</li>
+		</ul>
+	</div>
+
+</section>
+
 
 <!-- <div class="map" id="map"></div>
 
