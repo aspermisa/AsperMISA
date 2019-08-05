@@ -1,6 +1,5 @@
-/* Style sheet for upcoming events on the home page (see index.html) and event page (see events.html)*/
+/* Style sheet for upcoming events on the home page (see index.html) */
 
-/* styling upcoming events on home page */
 .container-event{
     border-collapse: separate;
     border-spacing: 30px; /* Looks okay on desktop but a little weird on mobile */
@@ -9,6 +8,8 @@
     padding-bottom: 10px;
     margin-left: 10%;
     width: 80%;
+  /*   padding: 100px 0 100px 0; */
+
 }
 
 .all-events-button a{
@@ -65,29 +66,6 @@ background: rgba(255, 255, 255, 0);
 .event-info h2{
     margin-bottom:0px;
     padding-right:15px;
-
-}
-
-/* styling for events on events page */
-.event-page-info{
-      float:left;
-    margin-right:50px;
-}
-
-.event-page-description{
-    margin-top:20px;
-    vertical-align: top;
-}
-
-.event-page-container{
-    border-collapse: separate;
-    border-spacing: 0px 30px;
-    width: 100%;
-    display:table;
-    padding-bottom: 10px;
-    margin-left: 10%;
-    width: 80%;
-  /*   padding: 100px 0 100px 0; */
 
 }
 
