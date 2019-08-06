@@ -2,6 +2,7 @@
 // 	width: 100%;
 // 	height: 440px;
 // }
+
 .contact-box {
     margin: 0 auto;
     /* 	padding: 10%; */
@@ -29,4 +30,26 @@
         margin: 0 auto;
         display: inline-block;
     }
+
 }
+
+/* colored logos (commented out for now because it also colors the footer logos) */
+/* .fa-linkedin{
+    color: #4875B4
+}
+
+.fa-facebook{
+    color: #3B5998
+}
+
+.fa-instagram{
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-twitter{
+    color: #33CCFF;
+} */
