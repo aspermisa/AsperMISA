@@ -36,12 +36,14 @@
 
 .staff2 {
 	padding: 0;
-	//margin-left: 20%;
-  //margin-right:20%;
 	list-style: none;
 	@extend %flexbox;
 	@include flex-flow(wrap);
 	text-align: center;
+  @media #{$desktop}{
+      margin-left: 20%;
+    margin-right:20%;
+  }
 	li {
 		padding: 30px 20px;
 		box-sizing: border-box;
@@ -233,5 +235,22 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 767px) {
+
+  .lightbox{
+  display:none;
+
+   p{
+  width:auto;
+  margin: 0 auto;
+  font-size: 1.38em;
+  margin-bottom:20px;
+
+  }
+}
+
+
+  }
 
 
