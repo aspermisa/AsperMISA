@@ -2,9 +2,9 @@
  */
 
 .staff {
+            margin-left: 15%;
+    margin-right:15%;
 	padding: 0;
-		margin-left: 15%;
-	margin-right:15%;
 	list-style: none;
 	@extend %flexbox;
 	@include flex-flow(wrap);
@@ -34,6 +34,11 @@
 	}
 }
 
+hr{
+height: 1px;
+opacity: 0.3;
+}
+
 .staff2 {
 	padding: 0;
 	list-style: none;
@@ -41,8 +46,6 @@
 	@include flex-flow(wrap);
 	text-align: center;
   @media #{$desktop}{
-      margin-left: 20%;
-    margin-right:20%;
   }
 	li {
 		padding: 30px 20px;
@@ -81,6 +84,7 @@
 
 .rounded-social-buttons {
   text-align: center;
+  margin-bottom:20px;
 }
 
 .rounded-social-buttons .social-button {
@@ -237,6 +241,11 @@
 }
 
 @media (max-width: 767px) {
+
+  .staff{
+          margin-left: 0%;
+    margin-right:0%;
+  }
 
   .lightbox{
   display:none;
