@@ -28,12 +28,15 @@ img {
 
 h1 strong, h2 strong {
 	font-weight: 700;
+	font-family: 'Share Tech Mono', monospace;
 }
 
 h1 {
 	font-weight: 300;
 	font-size: 3.8em;
 	margin: 0;
+	font-family: 'Share Tech Mono', monospace;
+	color: #8b0e3a
 }
 
 h2 {
@@ -41,6 +44,8 @@ h2 {
 	font-size: 3em;
 	margin: 0 0 30px 0;
 	line-height: 1.2em;
+	font-family: 'Share Tech Mono', monospace;
+	color: #8b0e3a
 }
 
 h3 {
@@ -56,9 +61,9 @@ h2 a {
 }
 
 p, address, ul {
-	font-size: 1.38em;
+	font-size: 1.68em;
 	margin-bottom: 20px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.6em;
 	font-family: 'Lato', sans-serif;
 }

@@ -1,17 +1,49 @@
 .button a, input[type=submit] {
-	color: $brand-color;
+	color: #004977;
 	text-decoration: none;
-	border: 2px solid $brand-color;
+	border: 2px solid #004977;
 	transition: .2s ease-in-out;
 	display: inline-block;
 	padding: 16px 50px;
 	background: #fff;
+    margin: auto;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size:30px;
+    white-space: nowrap;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+// exactly the same as previous button but display is block
+.button-all-events a{
+	color: #004977;
+	text-decoration: none;
+	border: 2px solid #004977;
+	transition: .2s ease-in-out;
+	display: block;
+	padding: 16px 50px;
+	background: #fff;
+	    max-width: 160px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size:30px;
+    white-space: nowrap;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button a:hover, input[type=submit]:hover {
-	background: $brand-color;
+	background: #004977;
 	color: #fff;
 	cursor: pointer;
+	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.0);
+}
+
+.button-all-events a:hover, input[type=submit]:hover {
+	background: #004977;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.0);
 }
 
 .button.alt a {
@@ -22,7 +54,7 @@
 
 .button.alt a:hover {
 	background: #fff;
-	color: $brand-color;
+	color: #004977;
 	text-shadow: none;
 }
 
