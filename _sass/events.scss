@@ -11,19 +11,8 @@
 }
 
 .all-events-button a{
-background: rgba(255, 255, 255, 0);
-    border: 2px solid white;
-    color: #fff;
-    color: black;
-    text-decoration: none;
-    border: 2px solid black;
-    transition: .2s ease-in-out;
+
     display: block;
-    max-width: 90px;
-    margin: auto;
-    text-align: center;
-    padding: 16px 50px;
-    background: #fff;
 }
 
 
@@ -51,6 +40,12 @@ background: rgba(255, 255, 255, 0);
 
 }
 
+.event-column a{
+    text-decoration: none;
+    color:black;
+
+}
+
 .event-column:hover {
     box-shadow: 1px 1px 6px rgba(0,0,0,0.34);
     border: 0!important;
@@ -61,6 +56,11 @@ background: rgba(255, 255, 255, 0);
 	padding: 1em 1em 1em;
 }
 
+.event-date, .event-time, .event-place{
+    font-size: 1.48em;
+    font-family: 'Lato', sans-serif;
+}
+
 .event-info h2{
     margin-bottom:0px;
     padding-right:15px;
@@ -69,6 +69,7 @@ background: rgba(255, 255, 255, 0);
 
 .event-title{
     margin:0px;
+    color: #8b0e3a
 }
 
 /* styling for events on events page */
@@ -127,5 +128,9 @@ background: rgba(255, 255, 255, 0);
     float:left;
     margin-right:0px;
 
+}
+
+.button a, input[type=submit]{
+        white-space:  normal;
 }
 }
