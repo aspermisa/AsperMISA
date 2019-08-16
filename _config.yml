@@ -119,3 +119,5 @@ social_icons:
 _comments:
   description: Text shown when sharing on social media
   blurb: Short bio or description of this person
+
+encoding: utf-8

@@ -3,53 +3,76 @@
 // 	height: 440px;
 // }
 
+//bacground image shown very top
+//adds extra transparent black rectangle
+#transparent-background{
+	padding: 5%;
+	background-color: black;
+	opacity: 0.5;
+
+	//We don't want to make text to be transparent,
+	//texts should have 100% opacticy (default: 1)
+	h1, p{
+		color: white;
+		opacity: 1;
+	}
+}
+
+//section shown at the bottom of the background image
 .contact-box {
-    margin: 0 auto;
-    /* 	padding: 10%; */
-    form {
-        width: 100%
-    }
-    p {
-        margin: 0;
-    }
-    .social-media-icons {
-        margin: 0 auto;
-        display: inline-block;
-        vertical-align: top;
-        li {
-            font-size: 100%;
-            padding: 10px;
-            display: inline-flex;
-        }
-    }
-    .social-media-icons a:hover {
-        opacity: 0.3;
-    }
-    .contact-info {
-        width: 50%;
-        margin: 0 auto;
-        display: inline-block;
-    }
+	margin: 0 auto;
+	// padding: 10%;
 
+	form {
+		width: 100%
+	}
+
+	p {
+		margin: 0;
+	}
+
+	.contact-form{
+		@media #{$desktop} {
+			-webkit-flex: 1;
+			flex: 1;
+		}
+	}
+
+	.contact-details, .contact-icons  {
+		@media #{$desktop} {
+			-webkit-flex: 1;
+			flex: 1;
+		}
+	}
+	.contact-details {
+		width: 50%;
+		font-size: .9em;
+		text-align: center;
+		display: inline-block;
+	}
+
+	.contact-icons{
+		margin: 0 auto;
+		display: inline-block;
+		vertical-align: top;
+		// text-align: center;
+
+		li{
+			font-size: 100%;
+			display: inline-flex;
+			padding: 8px;
+		}
+
+		li:hover{
+			opacity: 0.5;
+		}
+
+	}
 }
 
-/* colored logos (commented out for now because it also colors the footer logos) */
-/* .fa-linkedin{
-    color: #4875B4
+#box2{
+	margin: 0 auto;
+	width: 100%;
+	flex: 1;
+	overflow: hidden;
 }
-
-.fa-facebook{
-    color: #3B5998
-}
-
-.fa-instagram{
-  color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
-.fa-twitter{
-    color: #33CCFF;
-} */
