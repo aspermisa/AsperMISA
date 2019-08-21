@@ -29,6 +29,7 @@
 		border: 5px solid red;
 	}
 
+	//four social media icons
 	.contact-icons  {
 		@media #{$desktop} {
 			-webkit-flex: 1;
@@ -58,8 +59,36 @@
 		li:hover{
 			opacity: 0.5;
 		}
+	}
 
+	//slack logo
+	.contact-icons2  {
+		@media #{$desktop} {
+			-webkit-flex: 1;
+			flex: 1;
+		}
 
+		margin: 0 auto;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+
+		li{
+			border: 5px solid purple;
+			font-size: 100%;
+			display: inline-flex;
+			padding: 8px;
+
+			//size of the images
+			img{
+				width: 150px;
+				height: px;
+			}
+		}
+
+		li:hover{
+			opacity: 0.5;
+		}
 	}
 
 

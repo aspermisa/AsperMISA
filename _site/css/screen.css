@@ -588,6 +588,25 @@ hr {
         max-height: 75px; }
     #transparent-background .contact-icons li:hover {
       opacity: 0.5; }
+  #transparent-background .contact-icons2 {
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #transparent-background .contact-icons2 {
+        -webkit-flex: 1;
+        flex: 1; } }
+    #transparent-background .contact-icons2 li {
+      border: 5px solid purple;
+      font-size: 100%;
+      display: inline-flex;
+      padding: 8px; }
+      #transparent-background .contact-icons2 li img {
+        width: 150px;
+        height: px; }
+    #transparent-background .contact-icons2 li:hover {
+      opacity: 0.5; }
 
 .contact-box {
   margin: 0 auto; }
