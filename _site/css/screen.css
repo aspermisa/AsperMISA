@@ -556,12 +556,17 @@ hr {
       font-size: 1.38em;
       margin-bottom: 20px; } }
 #transparent-background {
-  padding: 5%;
-  background-color: black;
-  opacity: 0.5; }
+  background-color: black; }
   #transparent-background h1, #transparent-background h2, #transparent-background p {
     color: white;
-    opacity: 1; }
+    opacity: 1;
+    border: 5px solid green; }
+  #transparent-background #social-icon-containter, #transparent-background #social-icon-containter2 {
+    margin: 0 auto;
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+    border: 5px solid red; }
   #transparent-background .contact-icons {
     margin: 0 auto;
     display: inline-block;
@@ -572,10 +577,35 @@ hr {
         -webkit-flex: 1;
         flex: 1; } }
     #transparent-background .contact-icons li {
+      border: 5px solid purple;
       font-size: 100%;
       display: inline-flex;
       padding: 8px; }
+      #transparent-background .contact-icons li img {
+        width: 75px;
+        height: 75px;
+        max-width: 75px;
+        max-height: 75px; }
     #transparent-background .contact-icons li:hover {
+      opacity: 0.5; }
+  #transparent-background .contact-icons2 {
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #transparent-background .contact-icons2 {
+        -webkit-flex: 1;
+        flex: 1; } }
+    #transparent-background .contact-icons2 li {
+      border: 5px solid purple;
+      font-size: 100%;
+      display: inline-flex;
+      padding: 8px; }
+      #transparent-background .contact-icons2 li img {
+        width: 150px;
+        height: px; }
+    #transparent-background .contact-icons2 li:hover {
       opacity: 0.5; }
 
 .contact-box {
@@ -585,46 +615,13 @@ hr {
   .contact-box p {
     margin: 0; }
   @media (min-width: 768px) {
-    .contact-box .contact-form {
-      -webkit-flex: 1;
-      flex: 1; } }
-  @media (min-width: 768px) {
-    .contact-box .contact-details, .contact-box .contact-icons {
+    .contact-box .contact-form, .contact-box .contact-details {
       -webkit-flex: 1;
       flex: 1; } }
   .contact-box .contact-details {
-    width: 50%;
     font-size: .9em;
-    text-align: center;
-    display: inline-block; }
-  .contact-box .contact-icons {
-    margin: 0 auto;
-    display: inline-block;
-    vertical-align: top; }
-    .contact-box .contact-icons li {
-      font-size: 100%;
-      display: inline-flex;
-      padding: 8px; }
-    .contact-box .contact-icons li:hover {
-      opacity: 0.5; }
+    text-align: center; }
 
-#social-icon-containter {
-  margin: 0 auto;
-  width: 100%;
-  flex: 1;
-  overflow: hidden;
-  border: 5px solid red; }
-
-.fa-instagram {
-  color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background-clip: text;
-  -webkit-background-clip: text; }
-
-@fa-facebook-official : @fa-facebook;
-@fa-facebook-square : @fa-facebook;
-@fa-facebook : #3b5998;
 .blog-posts {
   list-style: none;
   padding: 0;

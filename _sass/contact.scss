@@ -6,18 +6,30 @@
 //bacground image shown very top
 //adds extra transparent black rectangle
 #transparent-background{
-	padding: 5%;
+	// padding: 5%;
 
 	background-color: black;
-	opacity: 0.5;
+	// opacity: 0.5;
 
 	//We don't want to make text to be transparent,
 	//texts should have 100% opacticy (default: 1)
 	h1, h2, p{
 		color: white;
 		opacity: 1;
+		border: 5px solid green;
 	}
 
+		
+	#social-icon-containter, #social-icon-containter2{
+		margin: 0 auto;
+		width: 100%;
+		flex: 1;
+		overflow: hidden;
+
+		border: 5px solid red;
+	}
+
+	//four social media icons
 	.contact-icons  {
 		@media #{$desktop} {
 			-webkit-flex: 1;
@@ -30,16 +42,53 @@
 		text-align: center;
 
 		li{
+			border: 5px solid purple;
 			font-size: 100%;
 			display: inline-flex;
 			padding: 8px;
+
+			//size of the images
+			img{
+				width: 75px;
+				height: 75px;
+				max-width: 75px;
+				max-height: 75px;
+			}
 		}
 
 		li:hover{
 			opacity: 0.5;
 		}
+	}
 
+	//slack logo
+	.contact-icons2  {
+		@media #{$desktop} {
+			-webkit-flex: 1;
+			flex: 1;
+		}
 
+		margin: 0 auto;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+
+		li{
+			border: 5px solid purple;
+			font-size: 100%;
+			display: inline-flex;
+			padding: 8px;
+
+			//size of the images
+			img{
+				width: 150px;
+				height: px;
+			}
+		}
+
+		li:hover{
+			opacity: 0.5;
+		}
 	}
 
 
@@ -58,62 +107,16 @@
 		margin: 0;
 	}
 
-	.contact-form{
+	.contact-form, .contact-details{
 		@media #{$desktop} {
 			-webkit-flex: 1;
 			flex: 1;
 		}
 	}
 
-	.contact-details, .contact-icons  {
-		@media #{$desktop} {
-			-webkit-flex: 1;
-			flex: 1;
-		}
-	}
 	.contact-details {
-		width: 50%;
 		font-size: .9em;
 		text-align: center;
-		display: inline-block;
-	}
-
-	.contact-icons{
-		margin: 0 auto;
-		display: inline-block;
-		vertical-align: top;
-		// text-align: center;
-
-		li{
-			font-size: 100%;
-			display: inline-flex;
-			padding: 8px;
-		}
-
-		li:hover{
-			opacity: 0.5;
-		}
-
+		// display: inline-block;
 	}
 }
-
-#social-icon-containter{
-	margin: 0 auto;
-	width: 100%;
-	flex: 1;
-	overflow: hidden;
-
-	border: 5px solid red;
-}
-
-.fa-instagram {
-	color: transparent;
-	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-	background-clip: text;
-	-webkit-background-clip: text;
-  }
-
-@fa-facebook-official: @fa-facebook;
-@fa-facebook-square: @fa-facebook;
-@fa-facebook: #3b5998;
