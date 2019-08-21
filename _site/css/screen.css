@@ -561,7 +561,7 @@ hr {
     color: white;
     opacity: 1;
     border: 5px solid green; }
-  #transparent-background #social-icon-containter {
+  #transparent-background #social-icon-containter, #transparent-background #social-icon-containter2 {
     margin: 0 auto;
     width: 100%;
     flex: 1;
@@ -577,6 +577,7 @@ hr {
         -webkit-flex: 1;
         flex: 1; } }
     #transparent-background .contact-icons li {
+      border: 5px solid purple;
       font-size: 100%;
       display: inline-flex;
       padding: 8px; }

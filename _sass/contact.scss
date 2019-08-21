@@ -20,7 +20,7 @@
 	}
 
 		
-	#social-icon-containter{
+	#social-icon-containter, #social-icon-containter2{
 		margin: 0 auto;
 		width: 100%;
 		flex: 1;
@@ -41,6 +41,7 @@
 		text-align: center;
 
 		li{
+			border: 5px solid purple;
 			font-size: 100%;
 			display: inline-flex;
 			padding: 8px;
