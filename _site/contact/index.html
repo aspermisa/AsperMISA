@@ -19,7 +19,7 @@
 <meta property="og:site_name" content="MISA" />
 <meta property="og:image" content="https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/contact/","image":"https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png","headline":"Contact","description":"Send us a message to find out more!","@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"@context":"http://schema.org"}</script>
+{"url":"http://localhost:4000/contact/","image":"https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"description":"Send us a message to find out more!","@type":"WebPage","headline":"Contact","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="MISA" />
@@ -143,12 +143,13 @@
 	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <!-- Main Image -->
-<section class="hero" style="background-image: url(https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png)">
+<section class="contact-hero" style="background-image: url(https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<!-- Extra div block added to add a transparent black rectangle behind the text -->
 			<div id="transparent-background">
-				<h2 class="editable">Follow us in social media</h2>
+				<h2 class="editable follow-us" style="text-align: center; padding-top: 25px; ">Follow us on social media</h2>
+			</div>
 
 				<!-- Contact icons -->
 				<!-- Class: contact-icons -->
@@ -188,7 +189,9 @@
 					</li>
 				</div>
 
-				<h2 class="editable">And join the community on Slack</h2>
+				<div id="transparent-background">
+				<h2 class="editable" style="margin-bottom: -25px;">And join the MISA community on Slack</h2>
+				</div>
 
 				<!-- Contact icons -->
 				<!-- Class: contact-icons -->
@@ -209,9 +212,7 @@
 
 		<!-- <p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you
 					as soon as we can.</p> -->
-	</div>
-	</div>
-	</div>
+
 </section>
 
 <!-- Section for Contact Form / Location / Social Media Icons -->
