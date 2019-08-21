@@ -3,30 +3,79 @@
 // 	height: 440px;
 // }
 
+//top  hero image section (the same as other .hero but "height: 100vh" removed)
+.contact-hero {
+	color: #ffffff;
+	text-align: center;
+	min-height: 920px;
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+
+	p {
+		color: #fff;
+	}
+
+
+	.inner-hero {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.hero-text-container {
+		width: 750px;
+		text-align: left;
+
+		h1, h2, p, .button {
+			text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+			text-align:center;
+		}
+	}
+
+	.hero-text-right {
+		position: absolute;
+		right: 0;
+	}
+}
+
+//prevents the transparant area from clipping with header
+#transparent-background .follow-us{
+	margin-top: 200px;
+@media (max-width: 767px) {
+	margin-top: 100px;
+}
+
+}
 //bacground image shown very top
 //adds extra transparent black rectangle
 #transparent-background{
-	// padding: 5%;
 
 	background-color: black;
-	// opacity: 0.5;
+	opacity: 0.8;
 
 	//We don't want to make text to be transparent,
 	//texts should have 100% opacticy (default: 1)
 	h1, h2, p{
 		color: white;
 		opacity: 1;
-		border: 5px solid green;
+/* 		border: 5px solid green; */
+padding:20px;
+
 	}
+}
 
 		
 	#social-icon-containter, #social-icon-containter2{
+		padding-bottom: 20px;
 		margin: 0 auto;
 		width: 100%;
 		flex: 1;
 		overflow: hidden;
 
-		border: 5px solid red;
+/* 		border: 5px solid red; */
 	}
 
 	//four social media icons
@@ -35,6 +84,7 @@
 			-webkit-flex: 1;
 			flex: 1;
 		}
+		opacity: 1;
 
 		margin: 0 auto;
 		display: inline-block;
@@ -42,17 +92,17 @@
 		text-align: center;
 
 		li{
-			border: 5px solid purple;
+/* 			border: 5px solid purple; */
 			font-size: 100%;
 			display: inline-flex;
 			padding: 8px;
 
 			//size of the images
 			img{
-				width: 75px;
-				height: 75px;
-				max-width: 75px;
-				max-height: 75px;
+				width: 125px;
+				height: 125px;
+				max-width: 125px;
+				max-height: 125px;
 			}
 		}
 
@@ -74,15 +124,17 @@
 		text-align: center;
 
 		li{
-			border: 5px solid purple;
+/* 			border: 5px solid purple; */
 			font-size: 100%;
 			display: inline-flex;
 			padding: 8px;
 
 			//size of the images
 			img{
-				width: 150px;
-				height: px;
+				width: 200px;
+				height: 200px;
+				max-width: 200px;
+				max-height: 200px;
 			}
 		}
 
@@ -92,7 +144,6 @@
 	}
 
 
-}
 
 //section shown at the bottom of the background image
 .contact-box {
