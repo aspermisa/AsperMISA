@@ -178,7 +178,7 @@ padding:20px;
 	}
 
 	.contact-details {
-		display: flex;	//allows addres and email to have same height
+		display: inline; // makes email address go below map address on mobile
 		font-size: .9em;
 		text-align: center;
 		

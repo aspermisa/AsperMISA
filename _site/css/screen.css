@@ -448,7 +448,7 @@ hr {
 
 .rounded-social-buttons .social-button.facebook:before {
   font-family: "FontAwesome";
-  content: ""; }
+  content: "∩éÜ"; }
 
 .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
   color: #3b5998;
@@ -460,7 +460,7 @@ hr {
 
 .rounded-social-buttons .social-button.twitter:before {
   font-family: "FontAwesome";
-  content: ""; }
+  content: "∩éÖ"; }
 
 .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
   color: #55acee;
@@ -484,7 +484,7 @@ hr {
 
 .rounded-social-buttons .social-button.youtube:before {
   font-family: "FontAwesome";
-  content: ""; }
+  content: "∩àº"; }
 
 .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
   color: #bb0000;
@@ -496,7 +496,7 @@ hr {
 
 .rounded-social-buttons .social-button.instagram:before {
   font-family: "FontAwesome";
-  content: ""; }
+  content: "∩à¡"; }
 
 .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
   color: #125688;
@@ -509,7 +509,7 @@ hr {
 
 .rounded-social-buttons .social-button.github:before {
   font-family: "FontAwesome";
-  content: "";
+  content: "∩é¢";
 }
 
 .rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
@@ -662,7 +662,7 @@ hr {
       flex: 1; } }
 @media screen and (max-width: 500px) {
     .contact-box .contact-details {
-      display: flex;
+      display: inline;
       font-size: .9em;
       text-align: center; }
       .contact-box .contact-details #contact-address, .contact-box .contact-details #contact-email {

@@ -19,7 +19,7 @@
 <meta property="og:site_name" content="MISA" />
 <meta property="og:image" content="https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/contact/","image":"https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png","headline":"Contact","description":"Send us a message to find out more!","@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"@context":"http://schema.org"}</script>
+{"url":"http://localhost:4000/contact/","image":"https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"description":"Send us a message to find out more!","@type":"WebPage","headline":"Contact","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="MISA" />
@@ -209,6 +209,21 @@
 			</div>
 
 		</div>
+		<div class="learn-more">
+        <div id="particles-js">
+            <script src="particles.js"> 
+            // Don't touch
+            </script>
+            <script src="app.js">
+            </script>
+        </div>
+        <a href="#contact-form" class="button hvr-float" style="margin-top: 40px">
+            Contact us
+            <span class="arrow">
+                ▼
+            </span>
+        </a>
+    </div>
 	</div>
 
 	<!-- <p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you
@@ -224,7 +239,7 @@
 
 		<!-- Contact form -->
 		<!-- Class: contact-form -->
-		<form action="/contact-success/" method="post" class="contact-form">
+		<form action="/contact-success/" method="post" class="contact-form" id="contact-form">
 			<input type="hidden" name="_to" value="support@cloudcannon.com">
 			<input type="text" name="_gotcha" style="display: none;">
 
@@ -251,7 +266,7 @@
 
 			<div id="contact-email">
 				<h3><i class="fas fa-envelope fa-3x"></i> Email</h3>
-				<p class="editable"><a href="mailto:support@example.com">aspermisa@example.com</a></p>
+				<p class="editable"><a href="mailto:misamanitoba@gmail.com">misamanitoba@gmail.com</a></p>
 			</div>
 		</div>
 
