@@ -857,8 +857,8 @@ input, textarea {
   border: 1px solid #DDDDDD; }
 
 input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus {
-  box-shadow: 0 0 5px #51cbee;
-  border: 1px solid #51cbee; }
+  box-shadow: 0 0 5px #004977;
+  border: 1px solid #004977; }
 
 /* Style sheet for the header navigation bar
  */
