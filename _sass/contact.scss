@@ -103,34 +103,12 @@ padding:20px;
 				height: 125px;
 				max-width: 125px;
 				max-height: 125px;
+
+				border-radius: 15px;
 			}
-		}
 
-		li:hover{
-			opacity: 0.5;
-		}
-	}
-
-	//slack logo
-	.contact-icons2  {
-		@media #{$desktop} {
-			-webkit-flex: 1;
-			flex: 1;
-		}
-
-		margin: 0 auto;
-		display: inline-block;
-		vertical-align: top;
-		text-align: center;
-
-		li{
-/* 			border: 5px solid purple; */
-			font-size: 100%;
-			display: inline-flex;
-			padding: 8px;
-
-			//size of the images
-			img{
+			//slack logo
+			#slack-logo{
 				width: 200px;
 				height: 200px;
 				max-width: 200px;
@@ -142,7 +120,6 @@ padding:20px;
 			opacity: 0.5;
 		}
 	}
-
 
 
 //section shown at the bottom of the background image
@@ -166,8 +143,50 @@ padding:20px;
 	}
 
 	.contact-details {
+		display: flex;	//allows addres and email to have same height
 		font-size: .9em;
 		text-align: center;
-		// display: inline-block;
+		
+		#contact-address, #contact-email{
+			display: inline-block;
+			width: 50%;
+		}
+
 	}
+}
+
+//if the screen is at most 500px,
+@media screen and (max-width: 500px){
+//section shown at the bottom of the background image
+.contact-box {
+	margin: 0 auto;
+	// padding: 10%;
+
+	form {
+		width: 100%
+	}
+
+	p {
+		margin: 0;
+	}
+
+	.contact-form, .contact-details{
+		@media #{$desktop} {
+			-webkit-flex: 1;
+			flex: 1;
+		}
+	}
+
+	.contact-details {
+		display: flex;	//allows addres and email to have same height
+		font-size: .9em;
+		text-align: center;
+		
+		#contact-address, #contact-email{
+			display: inline-block;
+			width: 100%;
+		}
+
+	}
+}
 }
