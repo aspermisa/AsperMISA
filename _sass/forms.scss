@@ -94,6 +94,6 @@ input, textarea {
 }
 
 input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus {
-	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-	border: 1px solid rgba(81, 203, 238, 1);
+	box-shadow: 0 0 5px #004977;
+	border: 1px solid #004977;
 }
