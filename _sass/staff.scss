@@ -24,9 +24,18 @@
 
 	}
 
-	.name {
-		margin-top: 20px;
-	}
+  .name {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.2em;
+    font-family: 'Share Tech Mono', monospace;
+    color: #8b0e3a;
+  }
+  
+  .name a{
+    color: #8b0e3a;
+  }
 
 	.position {
 		color: #666;
@@ -62,12 +71,21 @@ opacity: 0.3;
 
 	}
 
-	.name {
-		margin-top: 20px;
-	}
+  .name {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.2em;
+    font-family: 'Share Tech Mono', monospace;
+    color: #8b0e3a;
+  }
+  
+  .name a{
+    color: #8b0e3a;
+  }
 
-	.position {
-		color: #666;
+	.position { //changed to be similar to h3
+		//color: #666;
 		font-size: .8em;
 	}
 
@@ -113,13 +131,14 @@ opacity: 0.3;
           transform: rotate(360deg);
 }
 
+// Facebook
 .rounded-social-buttons .social-button.facebook {
   background: #3b5998;
 }
 
 .rounded-social-buttons .social-button.facebook:before {
   font-family: "FontAwesome";
-  content: "";
+  content: "\f09a";
 }
 
 .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
@@ -128,13 +147,14 @@ opacity: 0.3;
   border-color: #3b5998;
 }
 
+// Twitter
 .rounded-social-buttons .social-button.twitter {
   background: #55acee;
 }
 
 .rounded-social-buttons .social-button.twitter:before {
   font-family: "FontAwesome";
-  content: "";
+  content: "\f099";
 }
 
 .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
@@ -143,6 +163,7 @@ opacity: 0.3;
   border-color: #55acee;
 }
 
+// Linkedin
 .rounded-social-buttons .social-button.linkedin {
   background: #007bb5;
 }
@@ -158,13 +179,30 @@ opacity: 0.3;
   border-color: #007bb5;
 }
 
+// Email
+.rounded-social-buttons .social-button.email {
+  background: #022b3b;
+}
+
+.rounded-social-buttons .social-button.email:before {
+  font-family: "FontAwesome";
+  content: "\f0e0";
+}
+
+.rounded-social-buttons .social-button.email:hover, .rounded-social-buttons .social-button.email:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
+
+// Youtube
 .rounded-social-buttons .social-button.youtube {
   background: #bb0000;
 }
 
 .rounded-social-buttons .social-button.youtube:before {
   font-family: "FontAwesome";
-  content: "";
+  content: "\f167";
 }
 
 .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
@@ -173,13 +211,14 @@ opacity: 0.3;
   border-color: #bb0000;
 }
 
+// Instagram
 .rounded-social-buttons .social-button.instagram {
   background: #125688;
 }
 
 .rounded-social-buttons .social-button.instagram:before {
   font-family: "FontAwesome";
-  content: "";
+  content: "\f16d";
 }
 
 .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
@@ -188,14 +227,14 @@ opacity: 0.3;
   border-color: #125688;
 }
 
-
-/* .rounded-social-buttons .social-button.github {
-  background: #000000;
+// Github
+.rounded-social-buttons .social-button.github {
+  background: #05e017;
 }
 
 .rounded-social-buttons .social-button.github:before {
   font-family: "FontAwesome";
-  content: "";
+  content: "\f09b";
 }
 
 .rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
@@ -203,7 +242,23 @@ opacity: 0.3;
   background: #fefefe;
   border-color: #000000;
 }
- */
+
+// External link
+.rounded-social-buttons .social-button.link {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.link:before {
+  font-family: "FontAwesome";
+  content: "\f0c1";
+}
+
+.rounded-social-buttons .social-button.link:hover, .rounded-social-buttons .social-button.link:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
+
 
 /* lightbox styling */
 .lightbox{
