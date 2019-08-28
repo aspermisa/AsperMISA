@@ -1,7 +1,9 @@
 /* Style sheet for common elements */
 
 html {
-	background: #2b2b40;
+	// background: #2b2b40;
+
+	background: #2f2f38;
 }
 
 html, body {
@@ -27,24 +29,31 @@ img {
 }
 
 h1 strong, h2 strong {
-	font-weight: 700;
-	font-family: 'Share Tech Mono', monospace;
+	font-weight: 500;
+	// font-family: 'Share Tech Mono', monospace;
+	// font-family: 'Heebo', sans-serif;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 h1 {
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 3.8em;
 	margin: 0;
-	font-family: 'Share Tech Mono', monospace;
+	// font-family: 'Share Tech Mono', monospace;
+	// font-family: 'Heebo', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #8b0e3a
 }
 
 h2 {
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 3em;
 	margin: 0 0 30px 0;
 	line-height: 1.2em;
-	font-family: 'Share Tech Mono', monospace;
+	// font-family: 'Share Tech Mono', monospace;
+	// font-family: 'Heebo', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #8b0e3a
 }
 
