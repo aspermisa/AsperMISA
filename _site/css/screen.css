@@ -29,13 +29,13 @@ img {
 
 h1 strong, h2 strong {
   font-weight: 500;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Share Tech Mono', monospace; }
 
 h1 {
   font-weight: 500;
   font-size: 3.8em;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
   color: #8b0e3a; }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
   font-size: 3em;
   margin: 0 0 30px 0;
   line-height: 1.2em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
   color: #8b0e3a; }
 
 h3 {
@@ -371,7 +371,7 @@ blockquote:before {
     font-weight: 300;
     font-size: 1em;
     line-height: 1.2em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     color: #8b0e3a; }
   .staff .name a {
     color: #8b0e3a; }
@@ -416,7 +416,7 @@ hr {
     font-weight: 300;
     font-size: 1em;
     line-height: 1.2em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     color: #8b0e3a; }
   .staff2 .name a {
     color: #8b0e3a; }
@@ -605,7 +605,6 @@ hr {
     width: 750px;
     text-align: left; }
     .contact-hero .hero-text-container h1, .contact-hero .hero-text-container h2, .contact-hero .hero-text-container p, .contact-hero .hero-text-container .button {
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
       text-align: center; }
   .contact-hero .hero-text-right {
     position: absolute;
@@ -811,7 +810,7 @@ hr {
   background: #fff;
   margin: auto;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   white-space: nowrap;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2); }
@@ -827,7 +826,7 @@ hr {
   max-width: 160px;
   margin: auto;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   white-space: nowrap;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2); }
