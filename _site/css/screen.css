@@ -8,7 +8,7 @@
 
 /* Style sheet for common elements */
 html {
-  background: #2b2b40; }
+  background: #2f2f38; }
 
 html, body {
   margin: 0;
@@ -28,22 +28,22 @@ img {
   max-width: 100%; }
 
 h1 strong, h2 strong {
-  font-weight: 700;
-  font-family: 'Share Tech Mono', monospace; }
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif; }
 
 h1 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 3.8em;
   margin: 0;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   color: #8b0e3a; }
 
 h2 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 3em;
   margin: 0 0 30px 0;
   line-height: 1.2em;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   color: #8b0e3a; }
 
 h3 {
@@ -90,8 +90,6 @@ p, address, ul {
   .hero .hero-text-container {
     width: 750px;
     text-align: left; }
-    .hero .hero-text-container h1, .hero .hero-text-container h2, .hero .hero-text-container p, .hero .hero-text-container .button {
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
   .hero .hero-text-right {
     position: absolute;
     right: 0; }
@@ -169,7 +167,7 @@ header {
   header .container {
     line-height: 0; }
   header.header-background {
-    background-color: #004977;
+    background-color: #7A0625;
     color: #333;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     transition: background-color 0.2s ease;
@@ -300,7 +298,7 @@ blockquote:before {
   width: 100%;
   height: 100vh;
   padding-bottom: 50px;
-  font-family: 'Share Tech Mono', monospace; }
+  font-family: 'Heebo', sans-serif; }
   .learn-more a {
     text-decoration: none;
     color: #fff;
@@ -373,7 +371,7 @@ blockquote:before {
     font-weight: 300;
     font-size: 1em;
     line-height: 1.2em;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     color: #8b0e3a; }
   .staff .name a {
     color: #8b0e3a; }
@@ -418,7 +416,7 @@ hr {
     font-weight: 300;
     font-size: 1em;
     line-height: 1.2em;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     color: #8b0e3a; }
   .staff2 .name a {
     color: #8b0e3a; }
@@ -619,14 +617,11 @@ hr {
     #transparent-background .follow-us {
       margin-top: 100px; } }
 
-#transparent-background {
-  background-color: black;
-  opacity: 0.8; }
-  #transparent-background h1, #transparent-background h2, #transparent-background p {
-    color: white;
-    opacity: 1;
-    /* 		border: 5px solid green; */
-    padding: 20px; }
+#transparent-background h1, #transparent-background h2, #transparent-background p {
+  color: white;
+  opacity: 1;
+  /* 		border: 5px solid green; */
+  padding: 20px; }
 
 #social-icon-containter, #social-icon-containter2 {
   padding-bottom: 20px;
@@ -816,7 +811,7 @@ hr {
   background: #fff;
   margin: auto;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   white-space: nowrap;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2); }
@@ -832,7 +827,7 @@ hr {
   max-width: 160px;
   margin: auto;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   white-space: nowrap;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2); }
