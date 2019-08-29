@@ -25,10 +25,10 @@ nav a:hover {
 }
 
 html:not([data-scroll='0']) {
-	nav a:hover {
-    border-bottom: 5px solid white;
+	// nav a:hover {
+ //    border-bottom: 5px solid white;
     	
-    }
+ //    }
      header.header-background a:hover {
           border-bottom-color: white;
           border-bottom-width: 5px; 
