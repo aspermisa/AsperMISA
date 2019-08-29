@@ -2,12 +2,12 @@
 left_links:
 - name: About
   link: https://aspermisa.github.io/AsperMISA/#learn-more
-- name: Team
-  link: /team/
-- name: Events
-  link: /events/
 - name: MIS
   link: /mis/
+- name: Events
+  link: /events/
+- name: Team
+  link: /team/
 - name: Contact
   link: /contact/
 - name: Join MISA

@@ -8,7 +8,7 @@
 
 /* Style sheet for common elements */
 html {
-  background: #2f2f38; }
+  background: #131212; }
 
 html, body {
   margin: 0;
@@ -298,7 +298,7 @@ blockquote:before {
   width: 100%;
   height: 100vh;
   padding-bottom: 50px;
-  font-family: 'Heebo', sans-serif; }
+  font-family: 'Lato', sans-serif; }
   .learn-more a {
     text-decoration: none;
     color: #fff;
@@ -906,6 +906,14 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
 
 nav a:hover {
   border-bottom: 5px solid #7A0625; }
+
+html:not([data-scroll='0']) nav a:hover {
+  border-bottom: 5px solid white; }
+html:not([data-scroll='0']) header.header-background a:hover {
+  border-bottom-color: white;
+  border-bottom-width: 5px; }
+html:not([data-scroll='0']) a.active {
+  border-bottom: 5px solid white; }
 
 header.header-background a:hover {
   border-bottom-color: #7A0625;

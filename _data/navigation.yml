@@ -1,10 +1,10 @@
 # This file allows us to add or delete navigation links in the header bar
 - name: About
   link: https://aspermisa.github.io/AsperMISA/#learn-more
-- name: Events
-  link: /events/
 - name: MIS
   link: /mis/
+- name: Events
+  link: /events/
 - name: Team
   link: /team/
 - name: Contact

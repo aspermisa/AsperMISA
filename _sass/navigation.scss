@@ -24,9 +24,25 @@ nav a:hover {
     border-bottom: 5px solid #7A0625;
 }
 
+html:not([data-scroll='0']) {
+	nav a:hover {
+    border-bottom: 5px solid white;
+    	
+    }
+     header.header-background a:hover {
+          border-bottom-color: white;
+          border-bottom-width: 5px; 
+      }
+
+      a.active {
+		border-bottom: 5px solid white;
+	}
+   }
+
  header.header-background a:hover {
           border-bottom-color: #7A0625;
-          border-bottom-width: 5px; }
+          border-bottom-width: 5px; 
+      }
 
 nav {
 	text-transform: uppercase;
