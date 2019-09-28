@@ -38,17 +38,20 @@
 		<link href="{{ site.baseurl }}/css/css-typing.css" rel="stylesheet">
 
 
+		<!-- Added by Kevin -->
+		<!-- Please refer to analytics.html file in _include directory -->
+		{% if site.google_analytics and jekyll.environment == 'production' %}
+		{% include analytics.html %}
+		{% endif %}
 
-
-
-		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+		<!-- {% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
 				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 				ga('create', '{{ site.google_analytics_key }}', 'auto');
 				ga('send', 'pageview');
 			</script>
 			<script async src='https://www.google-analytics.com/analytics.js'></script>
-		{% endif %}
+		{% endif %} -->
 	</head>
 
 	<body>

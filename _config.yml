@@ -4,6 +4,9 @@
 title: MISA
 # url: "https://brave-submarine.cloudvent.net"
 baseurl:
+# Google Analytics
+google_analytics: UA-148918715-1
+
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
