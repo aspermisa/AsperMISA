@@ -62,4 +62,12 @@
 <url>
 <loc>http://localhost:4000/category/health/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/1234.html</loc>
+<lastmod>2019-10-19T02:51:12+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/cyber.html</loc>
+<lastmod>2019-10-19T02:53:15+00:00</lastmod>
+</url>
 </urlset>
