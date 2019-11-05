@@ -129,6 +129,9 @@ p, address, ul {
 /* .hero-text-container {
     z-index: 9998;
 } */
+.biztek-header {
+  color: black; }
+
 /* Style sheet for the homepage and some parts of the header (see index.html and default.html in _layouts folder) */
 .container, .text-container {
   margin: 0 auto;

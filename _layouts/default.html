@@ -59,12 +59,87 @@
 		<header id="mainHeader">
 			<div class="container">
 				<div class="company-name">
-					<a href="{{ site.baseurl }}/">
-						<span class="dark-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/header-logo2.png" alt="dark frisco logo"></span>
-						<span class="light-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/header-logo1.png" alt="light frisco logo"></span>
+					<a href="/">
+						<span class="dark-logo"><img width="104" height="38" src="/images/logo/header-logo2.png" alt="dark frisco logo"></span>
+						<span class="light-logo"><img width="104" height="38" src="/images/logo/header-logo1.png" alt="light frisco logo"></span>
 					</a>
 				</div>
-				{% include navigation.html %}
+				<nav>
+  <a class="nav-toggle hamburger hamburger--spin" id="open-nav" href="#">
+    <div class="hamburger-box" >
+      <div class="hamburger-inner"></div>
+    </div>
+  </a>
+	
+		
+		
+
+		
+		<a href="/about/" class="" >About</a>
+	
+		
+		
+
+		
+		<a href="/mis/" class="" >MIS</a>
+	
+		
+		
+
+		
+		<a  href="/events/" class="" >Events</a>
+	
+		
+		
+
+		
+		<a class="biztek-header" href="/biztek/" class="" >Biztek 2020</a>
+	
+		
+		
+
+		
+		<a href="/team/" class="" >Team</a>
+	
+		
+		
+
+		
+		<a href="/contact/" class="" >Contact</a>
+	
+		
+		
+
+		
+		<a href="https://docs.google.com/forms/d/12YQlo05fLL45uxMQIt0ysJ1warHUdXikjO5fytRyMKo/" class="" >Join MISA</a>
+	
+
+</nav>
+
+<script>
+  /**
+   * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
+   *
+   * @private
+   * @author Todd Motto
+   * @link https://github.com/toddmotto/foreach
+   * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
+   * @callback requestCallback      callback   - Callback function for each iteration.
+   * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
+   * @returns {}
+   */
+    var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+      forEach(hamburgers, function(hamburger) {
+        hamburger.addEventListener("click", function() {
+          this.classList.toggle("is-active");
+        }, false);
+      });
+    }
+  </script>
+
 				<p class="editor-link"><a style="display:inline;" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a></p>
 			</div>
 		</header>
