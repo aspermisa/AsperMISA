@@ -1,15 +1,15 @@
-# This file allows us to add or delete navigation links in the header bar
-- name: About
-  link: /about/
-- name: MIS
-  link: /mis/
-- name: Events
-  link: /events/
-- name: Biztek 2020
-  link: /biztek/
-- name: Team
-  link: /team/
-- name: Contact
-  link: /contact/
-- name: Join MISA
-  link: https://docs.google.com/forms/d/12YQlo05fLL45uxMQIt0ysJ1warHUdXikjO5fytRyMKo/
+# Header navigation links now in default.html in _layouts folder
+# - name: About
+#   link: /about/
+# - name: MIS
+#   link: /mis/
+# - name: Events
+#   link: /events/
+# - name: Biztek 2020
+#   link: https://biztek2020.com
+# - name: Team
+#   link: /team/
+# - name: Contact
+#   link: /contact/
+# - name: Join MISA
+#   link: https://docs.google.com/forms/d/12YQlo05fLL45uxMQIt0ysJ1warHUdXikjO5fytRyMKo/
