@@ -109,10 +109,16 @@ padding:20px;
 
 			//slack logo
 			#slack-logo{
+				left: -20px;
 				width: 200px;
 				height: 200px;
 				max-width: 200px;
 				max-height: 200px;
+			}
+
+			//slack logo
+			#gmail-logo{
+				transform: scaleY(1.25);
 			}
 		}
 
