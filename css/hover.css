@@ -9,6 +9,25 @@
  */
 /* 2D TRANSITIONS */
 /* Grow */
+
+.feedback {
+  background-color : #7A0625;
+  border-color: #7A0625;
+  color: white;
+  padding: 13px 20px;
+  border: 0px;
+  border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+  /*border-radius: 4px;*/
+}
+
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+  z-index: 1;
+}
+
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
