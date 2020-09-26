@@ -8,8 +8,8 @@ left_links:
   link: /events/
 - name: Biztek 2020
   link: https://biztek2020.com
-- name: Team
-  link: /team/
+# - name: Team
+  # link: /team/
 - name: Contact
   link: /contact/
 - name: Join MISA
