@@ -2,8 +2,8 @@
  */
 
 .staff {
-            margin-left: 15%;
-    margin-right:15%;
+  margin-left: 15%;
+  margin-right:15%;
 	padding: 0;
 	list-style: none;
 	@extend %flexbox;
@@ -100,11 +100,9 @@ opacity: 0.3;
 
 	}
 
-	 @charset "UTF-8";
-
 .rounded-social-buttons {
   text-align: center;
-  margin-bottom:20px;
+  padding: 5%;
 }
 
 .rounded-social-buttons .social-button {
@@ -264,34 +262,43 @@ opacity: 0.3;
 
 /* lightbox styling */
 .lightbox{
-  display:none;
+  display: none;
+  background-image: radial-gradient(#c3c3c3 1.5pt, white 1.5pt),
+  radial-gradient(#c3c3c3 1.5pt, white 1.5pt);
+  background-size: calc(30pt) calc(30pt);
 
   h2{
     text-align:center;
-    margin:0px;
+    color: #8f182b;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   h3{
     text-align:center;
-    // margin-bottom:20px;
+    color: #274511;
+    font-weight: bold;
+    font-size: 1.83em;
   }
 
   p{
-  width:400px;
-  margin: 0 auto;
-  font-size: 1.38em;
-  margin-bottom:20px;
-
+    width:400px;
+    color: #000000;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-size: 1.38em;
   }
 }
 
 /* image inside the lightbox */
 .lightbox-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 200px;
-  background-size:cover;
-  background-repeat:no-repeat;
+  padding: 5%;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -300,23 +307,22 @@ opacity: 0.3;
 @media (max-width: 767px) {
 
   .staff{
-          margin-left: 0%;
+    margin-left: 0%;
     margin-right:0%;
   }
 
   .lightbox{
   display:none;
 
-   p{
-  width:auto;
-  margin: 0 auto;
-  font-size: 1.38em;
-  margin-bottom:20px;
+    p{
+    width:auto;
+    margin: 0 auto;
+    font-size: 1.38em;
+    margin-bottom:20px;
 
+    }
   }
+
 }
-
-
-  }
 
 
