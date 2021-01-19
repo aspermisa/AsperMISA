@@ -52,6 +52,14 @@ p, address, ul { font-size: 1.68em; margin-bottom: 20px; font-weight: 400; line-
 /* .hero-text-container { z-index: 9998; } */
 .biztek-header { color: black; }
 
+#announcement { position: fixed; bottom: 2%; right: 1%; z-index: 1; background-color: #252036; border-color: gainsboro; border-style: groove; border-width: medium; border-radius: 1em; padding: 0.5%; box-shadow: none; opacity: 100%; }
+
+#announcement a { text-decoration: none; color: cornsilk; display: flex; align-items: center; justify-content: space-between; }
+
+#announcement a:hover { text-decoration: none; color: wheat; transition: 0.3s; }
+
+#announcement:hover { cursor: pointer; border-color: whitesmoke; transform: translateY(-10%); transition: 0.2s; box-shadow: 0px 0px 10px 1px lightgoldenrodyellow; opacity: 90%; }
+
 /* Style sheet for the homepage and some parts of the header (see index.html and default.html in _layouts folder) */
 .container, .text-container { margin: 0 auto; position: relative; padding: 0 20px; /* flex-direction: row-reverse */ }
 
