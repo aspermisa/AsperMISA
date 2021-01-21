@@ -97,17 +97,28 @@
 
 #announcement{
 	position: fixed;
-	bottom: 2%;
-	right: 1%;
+	left: 22.5%;
+	bottom: 0.01%;
 	z-index: 1;
+	width: 50%;
 	background-color: #252036;
 	border-color: gainsboro;
 	border-style: groove;
 	border-width: medium;
-	border-radius: 1em;
-	padding: 0.5%;
 	box-shadow: none;
 	opacity: 100%;
+}
+
+
+#announcement img{
+	height:4em; 
+	width:10.5em;
+}
+
+#announcement span{
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: medium;
 }
 
 #announcement a{
@@ -115,7 +126,7 @@
 	color: cornsilk;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content:center;
 }
 
 #announcement a:hover{

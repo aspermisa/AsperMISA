@@ -52,9 +52,13 @@ p, address, ul { font-size: 1.68em; margin-bottom: 20px; font-weight: 400; line-
 /* .hero-text-container { z-index: 9998; } */
 .biztek-header { color: black; }
 
-#announcement { position: fixed; bottom: 2%; right: 1%; z-index: 1; background-color: #252036; border-color: gainsboro; border-style: groove; border-width: medium; border-radius: 1em; padding: 0.5%; box-shadow: none; opacity: 100%; }
+#announcement { position: fixed; left: 22.5%; bottom: 0.01%; z-index: 1; width: 50%; background-color: #252036; border-color: gainsboro; border-style: groove; border-width: medium; box-shadow: none; opacity: 100%; }
 
-#announcement a { text-decoration: none; color: cornsilk; display: flex; align-items: center; justify-content: space-between; }
+#announcement img { height: 4em; width: 10.5em; }
+
+#announcement span { padding-left: 2%; padding-right: 2%; font-size: medium; }
+
+#announcement a { text-decoration: none; color: cornsilk; display: flex; align-items: center; justify-content: center; }
 
 #announcement a:hover { text-decoration: none; color: wheat; transition: 0.3s; }
 
