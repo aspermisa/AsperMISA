@@ -95,3 +95,52 @@
   color: black;
 }
 
+#announcement{
+	position: fixed;
+	left: 22.5%;
+	bottom: 0.01%;
+	z-index: 1;
+	width: 50%;
+	background-color: #252036;
+	border-color: gainsboro;
+	border-style: groove;
+	border-width: medium;
+	box-shadow: none;
+	opacity: 100%;
+}
+
+
+#announcement img{
+	height:4em; 
+	width:10.5em;
+}
+
+#announcement span{
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: medium;
+}
+
+#announcement a{
+	text-decoration: none;
+	color: cornsilk;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+
+#announcement a:hover{
+	text-decoration: none;
+	color: wheat;
+	transition: 0.3s;
+}
+
+#announcement:hover{
+	cursor: pointer;
+	border-color: whitesmoke;
+	transform: translateY(-10%);
+	transition: 0.2s;
+	box-shadow: 0px 0px 10px 1px lightgoldenrodyellow;
+	opacity: 90%;
+}
+
